@@ -11,14 +11,43 @@ package version;
  * @author Alejandro
  */
 public class File {
+    
+    String fileType;
+    Byte[] content;
+    double size;
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
+    }
+
+    public Byte[] getContent() {
+        return content;
+    }
+
+    public void setContent(Byte[] content) {
+        this.content = content;
+    }
+
+    public double getSize() {
+        return size;
+    }
+
+    public void setSize(double size) {
+        this.size = size;
+    }
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Ehm, creo que pude");
-	//No
+        //Está funcionando
+        System.out.println("Hola mundo");
+        
     }
     
 }
