@@ -18,9 +18,6 @@ class Post {
         this.topic = topic;
     }
 
-    public Date getDateCreated() {
-        return dateCreated;
-    }
 
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
@@ -41,6 +38,12 @@ class Post {
     public void setIsAllowed(boolean isAllowed) {
         this.isAllowed = isAllowed;
     }
+    
+    public void comment(){}
+    
+    public void rate(){}
+    
+    public void share(){}
 
     public static void main(String[] args) throws
             java.lang.Exception {
