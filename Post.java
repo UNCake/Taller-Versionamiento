@@ -1,12 +1,17 @@
-﻿import java.util.*;
+﻿
+import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+class Post {
 
-class Post
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		
-	}
+    private String topic;
+    private Date dateCreated;
+    private Date lastupdate;
+    private boolean isAllowed;
+
+    public static void main(String[] args) throws
+            java.lang.Exception {
+
+    }
 }
