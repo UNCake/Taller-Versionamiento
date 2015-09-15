@@ -1,3 +1,4 @@
-public class Admin{
-
+public class Admin {
+    private int level;
+    private double rating;
 }
